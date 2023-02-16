@@ -14,20 +14,30 @@
   <body>
     <div class="fluid-container max-lg:fluid-container-mobile">
       <!-- Header -->
-      <header id="header-section" class="navbar-sticky sticky top-2 z-50 flex h-16 w-full items-center justify-between py-4">
-        <div class="flex items-center justify-center gap-15 max-lg:gap-10 max-md:gap-5 max-xs:w-full max-xs:justify-evenly">
+      <header id="header-section" class="navbar-sticky sticky top-0 z-50 flex h-16 w-full items-center justify-between">
+        <div
+          class="flex items-center justify-center gap-15 max-lg:gap-10 max-md:gap-2 max-xs:w-full max-xs:justify-evenly"
+        >
           <a href="#"><img src="./images/logo.png" alt="header-logo" /></a>
           <!-- Link's -->
-          <li class="flex list-none gap-8 max-lg:gap-2">
-            <a href="#" class="text-sm font-normal text-slate-700 hover:text-black hover:transition">Главная</a>
-            <a href="#" class="text-sm font-normal text-slate-700 hover:text-black hover:transition">О нас</a>
-            <a href="#" class="text-sm font-normal text-slate-700 hover:text-black hover:transition">Цены</a>
-            <a href="#" class="text-sm font-normal text-slate-700 hover:text-black hover:transition">Контакты</a>
+          <li class="flex list-none flex-nowrap gap-8 max-lg:gap-3">
+            <a href="#" class="text-xs font-normal text-slate-700 hover:text-black hover:transition sm:text-sm"
+              >Главная</a
+            >
+            <a href="#" class="text-xs font-normal text-slate-700 hover:text-black hover:transition sm:text-sm"
+              >О нас</a
+            >
+            <a href="#" class="text-xs font-normal text-slate-700 hover:text-black hover:transition sm:text-sm">Цены</a>
+            <a href="#" class="text-xs font-normal text-slate-700 hover:text-black hover:transition sm:text-sm"
+              >Контакты</a
+            >
           </li>
         </div>
         <!-- Language -->
         <div class="flex select-none items-center justify-center gap-10 max-lg:gap-2 max-xs:hidden">
-          <a href="#" class="flex items-center justify-center gap-2 text-sm max-lg:hidden"> <img src="./images/lang.png" alt="" /> Русский</a>
+          <a href="#" class="flex items-center justify-center gap-2 text-sm max-lg:hidden">
+            <img src="./images/lang.png" alt="" /> Русский</a
+          >
           <a
             href="#"
             class="flex h-8 w-24 cursor-pointer items-center justify-center rounded-sm border border-blue-900/70 px-4 py-2 text-sm transition-colors hover:bg-blue-900/90 hover:text-white"
@@ -35,27 +45,34 @@
           >
         </div>
       </header>
-      <main class="flex flex-col gap-15 max-lg:my-15 max-sm:px-2.5">
+      <!-- Content -->
+      <main class="flex flex-col gap-15 max-lg:my-15 max-sm:px-5">
         <section class="flex w-full items-center justify-between max-lg:flex-col max-sm:px-5">
           <!-- Product Info -->
           <div class="flex flex-1 flex-col items-start justify-center gap-8 max-lg:items-center">
             <span class="text-vertical select-none text-base font-medium text-black/80 max-lg:hidden">FURELLA</span>
             <h2 class="text-start text-6xl font-medium text-blue-900/90">КРЕСЛА</h2>
             <p class="text-ellipsis text-sm text-gray max-lg:text-center">
-              детской комнаты. Наша мебель удобна и практична в идеальную форму, подходят для любого помещения, офиса или Наша мебель удобна и практична в
-              идеальную форму
+              детской комнаты. Наша мебель удобна и практична в идеальную форму, подходят для любого помещения, офиса
+              или Наша мебель удобна и практична в идеальную форму
             </p>
           </div>
           <!-- Images -->
           <div class="relative flex flex-1 items-center justify-end">
-            <img src="./images/chair.png" alt="chair" class="cursor-pointer select-none transition-all hover:rotate-6 max-md:hover:rotate-0" />
+            <img
+              src="./images/chair.png"
+              alt="chair"
+              class="cursor-pointer select-none transition-all hover:rotate-6 max-md:hover:rotate-0"
+            />
             <div class="absolute bottom-0 pb-1">
               <span class="flex justify-end text-2xl font-semibold">$45.50</span>
               <p class="flex justify-end text-sm text-gray">Уникальный дизайн</p>
             </div>
           </div>
         </section>
-        <section class="flex w-full items-center justify-between gap-8 max-lg:flex-col-reverse max-lg:gap-4 max-sm:gap-2 max-sm:px-5">
+        <section
+          class="flex w-full items-center justify-between gap-8 max-lg:flex-col-reverse max-lg:gap-4 max-sm:gap-2 max-sm:px-5"
+        >
           <!-- Images -->
           <div class="relative mt-10 flex flex-1 items-center justify-end">
             <img src="./images/room.png" alt="chair" class="select-none rounded" />
@@ -65,12 +82,14 @@
             <span class="text-vertical select-none text-base font-medium text-black/80 max-lg:hidden">О НАС</span>
             <h2 class="text-start text-6xl font-medium text-red-900 max-lg:text-end">КОМНАТА</h2>
             <p class="text-ellipsis text-end text-sm text-gray max-lg:text-center">
-              детской комнаты. Наша мебель удобна и практична в идеальную форму, подходят для любого помещения, офиса или Наша мебель удобна и практична в
-              идеальную форму, подходят для любого помещения, офиса или
+              детской комнаты. Наша мебель удобна и практична в идеальную форму, подходят для любого помещения, офиса
+              или Наша мебель удобна и практична в идеальную форму, подходят для любого помещения, офиса или
             </p>
           </div>
         </section>
-        <section class="my-4 flex w-full items-center justify-between gap-8 py-8 max-lg:my-4 max-lg:flex-col max-lg:gap-6 max-lg:py-2">
+        <section
+          class="my-4 flex w-full items-center justify-between gap-8 py-8 max-lg:my-4 max-lg:flex-col max-lg:gap-6 max-lg:py-2"
+        >
           <div>
             <div class="flex flex-col items-center justify-start gap-1 text-blue-900/90">
               <h3 class="text-4xl font-semibold">1</h3>
@@ -82,30 +101,40 @@
             <div class="flex flex-col items-center justify-start gap-1 text-blue-900/90">
               <h3 class="text-4xl font-semibold">2</h3>
               <h5 class="text-base font-medium text-black">Честная цена</h5>
-              <p class="text-center text-sm text-gray">Цена ниже конкурентовкаждый день Мы всегда готовы помочь делаю лучшие зарубежные дизайнеры</p>
+              <p class="text-center text-sm text-gray">
+                Цена ниже конкурентовкаждый день Мы всегда готовы помочь делаю лучшие зарубежные дизайнеры
+              </p>
             </div>
           </div>
           <div>
             <div class="flex flex-col items-center justify-start gap-1 text-blue-900/90">
               <h3 class="text-4xl font-semibold">3</h3>
               <h5 class="text-base font-medium text-black">Лучшая поддержка</h5>
-              <p class="text-center text-sm text-gray">Цена ниже конкурентов делаю лучшие каждый день зарубежные дизайнеры</p>
+              <p class="text-center text-sm text-gray">
+                Цена ниже конкурентов делаю лучшие каждый день зарубежные дизайнеры
+              </p>
             </div>
           </div>
         </section>
         <section class="my-4 flex h-full w-full flex-wrap">
           <!-- 1 -->
-          <div class="flex w-1/2 items-center justify-between bg-gray-2 p-4 pr-0 max-lg:flex-col max-sm:w-full max-xs:p-2">
+          <div
+            class="flex w-1/2 items-center justify-between bg-gray-2 p-4 pr-0 max-lg:flex-col max-sm:w-full max-xs:p-2"
+          >
             <div class="flex flex-1 flex-col pl-4 max-lg:items-center max-lg:justify-center">
               <h3 class="text-lg font-medium text-black">Кровать El’Matina</h3>
               <p class="text-sm text-gray">детской комнаты. Наша мебель удобна и практична</p>
             </div>
-            <div class="flex-2 flex cursor-pointer items-center justify-center transition-all hover:rotate-2 max-md:hover:rotate-0">
+            <div
+              class="flex-2 flex cursor-pointer items-center justify-center transition-all hover:rotate-2 max-md:hover:rotate-0"
+            >
               <img src="./images/bed.png" />
             </div>
           </div>
           <!-- 2 -->
-          <div class="flex w-1/2 items-center justify-between bg-gray-3 p-4 pr-0 max-lg:flex-col max-sm:w-full max-xs:p-2">
+          <div
+            class="flex w-1/2 items-center justify-between bg-gray-3 p-4 pr-0 max-lg:flex-col max-sm:w-full max-xs:p-2"
+          >
             <div class="flex flex-1 flex-col pl-4 max-lg:items-center max-lg:justify-center">
               <h3 class="text-lg font-medium text-black">Диван Escorinio</h3>
               <p class="text-sm text-gray">детской комнаты. Наша мебель удобна и практична в идеальную</p>
@@ -115,7 +144,9 @@
             </div>
           </div>
           <!-- 3 -->
-          <div class="flex w-1/3 items-center justify-between bg-gray-3 p-4 pr-0 max-lg:flex-col max-sm:w-full max-xs:p-2">
+          <div
+            class="flex w-1/3 items-center justify-between bg-gray-3 p-4 pr-0 max-lg:flex-col max-sm:w-full max-xs:p-2"
+          >
             <div class="flex flex-1 flex-col pl-4 max-lg:items-center max-lg:justify-center">
               <h3 class="text-lg font-medium text-black">Кресло Elania</h3>
               <p class="text-sm text-gray">Добавьте комфорта и уюта в свое жилище с креслом</p>
@@ -125,7 +156,9 @@
             </div>
           </div>
           <!-- 4 -->
-          <div class="flex w-1/3 items-center justify-between bg-gray-5 p-4 pr-0 max-lg:flex-col max-sm:w-full max-xs:p-2">
+          <div
+            class="flex w-1/3 items-center justify-between bg-gray-5 p-4 pr-0 max-lg:flex-col max-sm:w-full max-xs:p-2"
+          >
             <div class="flex flex-1 flex-col pl-4 max-lg:items-center max-lg:justify-center">
               <h3 class="text-lg font-medium text-black">Кресло Teomax</h3>
               <p class="text-sm text-gray">традиционный комфорт в модерн</p>
@@ -135,7 +168,9 @@
             </div>
           </div>
           <!-- 5 -->
-          <div class="flex w-1/3 items-center justify-between bg-gray-6 p-4 pr-0 max-lg:flex-col max-sm:w-full max-xs:p-2">
+          <div
+            class="flex w-1/3 items-center justify-between bg-gray-6 p-4 pr-0 max-lg:flex-col max-sm:w-full max-xs:p-2"
+          >
             <div class="flex flex-1 flex-col pl-4 max-lg:items-center max-lg:justify-center">
               <h3 class="text-lg font-medium text-black">Стул Sinorio</h3>
               <p class="text-sm text-gray">Добавьте комфорта и уюта в свое жилище</p>
@@ -149,8 +184,9 @@
           <div class="flex-2 flex flex-col gap-4 max-sm:mx-auto max-sm:items-center max-sm:gap-6">
             <h2 class="text-start text-4xl font-medium text-black/80 max-sm:text-center">СВЯЗАТЬСЯ С НАМИ</h2>
             <p class="text-sm font-medium text-gray max-md:text-center">
-              Служба поддержки Furella помогает решить вопросы, связанные с платежами и выбором мебели. Свяжитесь с сотрудниками нашего магазина, чтобы задать
-              вопрос об мебели или оплате. Нажмите на кнопку чтобы перейти в переписку с нашей техподдержкой.
+              Служба поддержки Furella помогает решить вопросы, связанные с платежами и выбором мебели. Свяжитесь с
+              сотрудниками нашего магазина, чтобы задать вопрос об мебели или оплате. Нажмите на кнопку чтобы перейти в
+              переписку с нашей техподдержкой.
             </p>
             <a
               href="#"
@@ -161,15 +197,19 @@
           <div class="flex w-full items-center justify-end max-sm:hidden"><img src="./images/brand.png" /></div>
         </section>
       </main>
-      <footer class="my-8 flex w-full flex-col items-center justify-between gap-4 max-lg:py-4">
+      <!-- Footer -->
+      <footer class="my-8 flex w-full flex-col items-center justify-between gap-4 px-5 max-lg:py-4">
         <div class="max-md: flex w-full gap-4 max-md:flex-col">
           <div class="flex w-full flex-1 flex-col">
-            <a href="#" class="flex w-full max-md:items-center max-md:justify-center"><img src="./images/logo.png" /></a>
+            <a href="#" class="flex w-full max-md:items-center max-md:justify-center"
+              ><img src="./images/logo.png"
+            /></a>
             <p class="text-sm font-medium text-gray max-md:items-center max-md:justify-center">
-              Наша компания деает самую лучшую мебель, ждем вас, мебель на самом высоком уровне, потому что вы этого заслуживаете
+              Наша компания деает самую лучшую мебель, ждем вас, мебель на самом высоком уровне, потому что вы этого
+              заслуживаете
             </p>
           </div>
-          <div class="flex w-full flex-1 justify-center gap-8">
+          <div class="flex w-full flex-1 justify-center gap-4 px-4 sm:gap-8">
             <li class="flex list-none flex-col gap-2 text-base font-semibold">
               Навигация
               <a href="#" class="text-sm font-normal text-gray transition-colors hover:text-black">Главная</a>
@@ -185,7 +225,7 @@
               <a href="#" class="text-sm font-normal text-gray transition-colors hover:text-black">Контакты</a>
             </li>
             <li class="flex list-none flex-col gap-2 text-base font-semibold">
-              МЕБЕЛЬ
+              Навигация
               <a href="#" class="text-sm font-normal text-gray transition-colors hover:text-black">Главная</a>
               <a href="#" class="text-sm font-normal text-gray transition-colors hover:text-black">О нас</a>
               <a href="#" class="text-sm font-normal text-gray transition-colors hover:text-black">Цены</a>
@@ -193,8 +233,8 @@
             </li>
           </div>
         </div>
-        <span class="w-full items-center border-t border-gray-2 pt-4 text-sm font-medium text-black"
-          >© 2022 Restaurants. All Right Reserved. Designed by Delinc</span
+        <span class="w-full select-none items-center border-t border-gray-2 pt-4 text-sm font-medium text-black"
+          >© 2023 All Right Reserved. Designed by Delinc & Coded by cemtatli</span
         >
       </footer>
     </div>

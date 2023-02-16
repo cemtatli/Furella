@@ -4,8 +4,8 @@
   text-orientation: sideways-right;
 }
 .navbar-sticky {
-  -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
 }
 ::selection {
   background: #1787dd2f;
@@ -14,7 +14,7 @@
   scroll-behavior: smooth;
 }
 ::-webkit-scrollbar {
-  width: 6px;
+  width: 5px;
 }
 ::-webkit-scrollbar-track {
   background: #fff;

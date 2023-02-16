@@ -537,8 +537,8 @@ body {
   position: sticky;
 }
 
-.top-2{
-  top: 0.5rem;
+.top-0{
+  top: 0px;
 }
 
 .bottom-0{
@@ -623,6 +623,10 @@ body {
 
 .flex-wrap{
   flex-wrap: wrap;
+}
+
+.flex-nowrap{
+  flex-wrap: nowrap;
 }
 
 .items-start{
@@ -727,18 +731,13 @@ body {
   background-color: rgb(30 58 138 / 0.9);
 }
 
-.bg-red-500{
+.bg-slate-900{
   --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
 }
 
 .p-4{
   padding: 1rem;
-}
-
-.py-4{
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 
 .px-4{
@@ -759,6 +758,11 @@ body {
 .px-2{
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+
+.px-5{
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .pb-1{
@@ -819,6 +823,11 @@ body {
   line-height: 1.75rem;
 }
 
+.text-xs{
+  font-size: 13px;
+  line-height: 16px;
+}
+
 .font-normal{
   font-weight: 400;
 }
@@ -829,10 +838,6 @@ body {
 
 .font-semibold{
   font-weight: 600;
-}
-
-.font-light{
-  font-weight: 300;
 }
 
 .text-slate-700{
@@ -919,8 +924,6 @@ body {
 @media not all and (min-width: 1024px){
   .max-lg\:fluid-container-mobile{
     width: 100%;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
   }
 
   .max-lg\:my-15{
@@ -957,6 +960,10 @@ body {
     gap: 2.5rem;
   }
 
+  .max-lg\:gap-1{
+    gap: 0.25rem;
+  }
+
   .max-lg\:gap-2{
     gap: 0.5rem;
   }
@@ -967,6 +974,10 @@ body {
 
   .max-lg\:gap-6{
     gap: 1.5rem;
+  }
+
+  .max-lg\:gap-3{
+    gap: 0.75rem;
   }
 
   .max-lg\:py-2{
@@ -1001,12 +1012,12 @@ body {
     justify-content: center;
   }
 
-  .max-md\:gap-5{
-    gap: 1.25rem;
+  .max-md\:gap-4{
+    gap: 1rem;
   }
 
-  .max-md\:gap-8{
-    gap: 2rem;
+  .max-md\:gap-2{
+    gap: 0.5rem;
   }
 
   .max-md\:text-center{
@@ -1084,5 +1095,23 @@ body {
 
   .max-xs\:p-2{
     padding: 0.5rem;
+  }
+}
+
+@media (min-width: 640px){
+  .sm\:gap-8{
+    gap: 2rem;
+  }
+
+  .sm\:text-sm{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+}
+
+@media (min-width: 768px){
+  .md\:text-sm{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
   }
 }
