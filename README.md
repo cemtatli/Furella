@@ -1,4 +1,4 @@
-<h1 >Furella Website</h1>
+<h1>🪑 Furella Website</h1>
 
 <p>Welcome to the "Furella" repository. This is a coded version of a previously designed interface design. This is a landing page design.</p>
 <h3>Only with HTML, Tailwind CSS and JS technology.</h3>
