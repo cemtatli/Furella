@@ -1,4 +1,4 @@
-#🪑 Furella Website
+# 🪑Furella Website
 
 ### Built using HTML, Tailwind CSS and JS technology 
 
